@@ -22,7 +22,7 @@ def move(board, index, token = "X")
   board[index] = token 
 end   
   
-def turn(board, token) 
+def turn(board, token = "X") 
   print "Please enter 1-9:"
   user_input = gets 
   index = input_to_index(user_input)
