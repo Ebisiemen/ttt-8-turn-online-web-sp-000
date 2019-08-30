@@ -32,4 +32,5 @@ def turn(board, token)
   else 
     user_input
     turn(board, token) 
+  end   
 end   
