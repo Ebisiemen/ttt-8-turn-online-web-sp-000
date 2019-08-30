@@ -11,5 +11,6 @@ def input_to_index(user_input)
 end   
 
 def valid_move?(board, index)
-  board[index].include? "X" && "O"
+  if 
+  board[index] == "X" || "O"
 end   
