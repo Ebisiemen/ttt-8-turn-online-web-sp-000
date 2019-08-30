@@ -27,7 +27,7 @@ def turn(board, token)
   user_input = gets 
   index = input_to_index(user_input)
   if valid_move?(board, index) 
-    move(board, token, index) 
+    move(board, index, token) 
     display_board(board)
   else 
     user_input
