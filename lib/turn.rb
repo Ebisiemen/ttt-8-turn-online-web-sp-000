@@ -22,5 +22,5 @@ def move(board, index, token = "X")
   board[index] = token 
 end   
   
-def turn(inde) 
+def turn(board) 
   print 
