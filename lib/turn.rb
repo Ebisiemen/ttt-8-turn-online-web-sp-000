@@ -6,4 +6,5 @@ def  display_board(board)
   print " #{board[6]} | #{board[7]} | #{board[8]} "
 end   
 
-def input_to_index(bo)
+def input_to_index(user_input)
+end   
