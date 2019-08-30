@@ -5,3 +5,5 @@ def  display_board(board)
   print "-----------"
   print " #{board[6]} | #{board[7]} | #{board[8]} "
 end   
+
+def input_to_index()
